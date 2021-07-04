@@ -9,8 +9,6 @@ const Post = require("../models/post");
 const User = require("../models/user");
 const Comment = require("../models/comments");
 
-const mongoose = require("mongoose");
-
 // Image Destination and Name
 const Mstorage = multer.diskStorage({
   destination: "./uploads",
